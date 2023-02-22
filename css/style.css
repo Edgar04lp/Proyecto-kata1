@@ -1,2 +1,36 @@
 body {
-    background-color: rgba(0, 255, 110, 0.663);}   
+    background-color: rgba(83, 147, 15, 0.477);} 
+    
+    /*rgba(83, 147, 15, 0.477);*/
+
+    html {
+margin: 0px;
+padding: 0px;
+border: 0px;
+font-size: 62.5%;
+
+
+    }
+    
+:root{
+--color-1: #16f;
+--color-2: rgb(17, 255, 96);
+--color-3: rgba(255, 136, 17, 0.729);
+}
+
+.header-element{
+ color: rgba(233, 233, 244, 0.84);  
+ /*color: var(--color-3 , '#qqqqqq');*/
+
+
+}
+
+.nav-element {
+ color: var(--color-1 , '#qqqqqq');
+
+}
+
+.span-element{
+    color: var(--color-2 , '#qqqqqq');
+
+}
