@@ -2,9 +2,7 @@ body{
     /*background-color: #ffffff;*/
 
     font-family: 'Mynerve', cursive;
-    background-image: url(asset);
-
-
+    background-image: url();
 } 
     
     /*rgba(83, 147, 15, 0.477);*/
@@ -12,7 +10,7 @@ body{
     html {
 margin: 0px;
 padding: 0px;
-/*border: 0px;*/
+border: 0px;
 font-size: 62.5%;
 
 
@@ -26,23 +24,34 @@ font-size: 62.5%;
 }
 
 .header-element{
- color: rgba(6, 6, 123, 0.84);  
+ /*color: rgba(6, 6, 123, 0.84);*/  
  /*color: var(--color-3 , '#qqqqqq');*/
  text-align: center;
- border-color: black;
- border: 0px;
-
-
-
-
 }
 
 .nav-element {
  color: var(--color-1 , '#qqqqqq');
 
 }
+.titulo{
+    background-color:rgb(250, 246, 246);
+    align-content: center;
+
+}
+
 
 .span-element{
     color: var(--color-2 , '#qqqqqq');
+
+}
+
+.osito{
+    height: 250px; 
+    border-radius: 50%;
+}
+
+.footer{
+    width:100vw;
+    
 
 }
